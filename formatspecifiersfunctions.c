@@ -23,7 +23,7 @@ int print_string(va_list ap)
 
 	str = va_arg(ap, char *);
 	if (str == NULL)
-		str = "(nil)";
+		str = "(null)";
 	i = 0;
 	while (str[i] != '\0')
 	{
