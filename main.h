@@ -23,7 +23,6 @@ int _printf(const char *format, ...);
 int printer(const char *format, print_t func_list[], va_list args);
 /* Task 0 main functions */
 int print_char(va_list);
-int print_binary(va_list);
 int print_string(va_list);
 int print_percent_symbol(va_list);
 /* Task 1 main functions */
