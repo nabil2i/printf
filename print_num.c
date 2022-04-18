@@ -5,7 +5,7 @@
  * @args: List of arguments
  * Return: The number of arguments printed
  */
-int print_num(va_list args)
+int print_number(va_list args)
 {
 	int n;
 	int div;
