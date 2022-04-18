@@ -21,8 +21,8 @@ typedef struct print
 int _putchar(char);
 int _printf(const char *format, ...);
 int printer(const char *format, print_t func_list[], va_list args);
-int print_char(va_list ap);
-int print_string(va_list ap);
-int print_percent_symbol(va_list ap);
+int print_char(va_list);
+int print_string(va_list);
+int print_percent_symbol(va_list);
 
 #endif /* MAIN_H */

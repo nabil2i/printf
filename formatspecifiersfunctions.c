@@ -40,7 +40,7 @@ int print_string(va_list ap)
  */
 int print_percent_symbol(va_list ap)
 {
-	(void)ap;
+	(void) ap;
 
 	_putchar('%');
 	return (1);
