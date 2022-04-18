@@ -21,17 +21,30 @@ typedef struct print
 int _putchar(char);
 int _printf(const char *format, ...);
 int printer(const char *format, print_t func_list[], va_list args);
+/* Task 0 main functions */
 int print_char(va_list);
 int print_int(va_list);
 int print_num(va_list);
 int print_binary(va_list);
 int print_string(va_list);
 int print_percent_symbol(va_list);
-int print_octal(va_list list);
-int print_hex(va_list list);
-int print_heX(va_list list);
-int print_reversed(va_list arg);
-int rot13(va_list);
+/* Task 1 main functions */
+int print_integer(va_list);
+int print_number(va_list);
+/* Task 3 main functions */
+int print_binary(va_list);
+/*Task 4 main functions */
 int unsigned_integer(va_list);
+int print_octal(va_list);
+int print_hex(va_list);
+int print_heX(va_list);
+
+int print_unsgined_number(unsigned int);
+
+/* Task 14 main functions */
+int print_reversed(va_list arg);
+/* Task 15 main functions */
+int rot13(va_list);
+
 
 #endif /* MAIN_H */
