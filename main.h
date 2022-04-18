@@ -15,7 +15,8 @@ typedef struct print
 	char *s;
 	int (*f)(va_list);
 
-} print_t;
+}
+print_t;
 
 /*Functions Declarations*/
 int _putchar(char);
@@ -33,5 +34,13 @@ int print_heX(va_list list);
 int print_reversed(va_list arg);
 int rot13(va_list);
 int unsigned_integer(va_list);
+
+/*Helper functions*/
+
+unsigned int base_len(unsigned int, int);
+char *rev_string(char *);
+void write_base(char *str);
+char *_memcpy(char *dest, char *src, unsigned int n);
+int print_unsgined_number(unsigned int);
 
 #endif /* MAIN_H */
