@@ -8,7 +8,6 @@
 int _printf(const char *format, ...)
 {
 	int count_chars;
-
 	print_t func_list[] = {
 		{"c", print_char},
 		{"s", print_string},
