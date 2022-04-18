@@ -20,12 +20,18 @@ typedef struct print
 /*Functions Declarations*/
 int _putchar(char);
 int _printf(const char *format, ...);
-int _write_char(char);
 int printer(const char *format, print_t func_list[], va_list args);
 int print_char(va_list);
 int print_int(va_list);
 int print_num(va_list);
+int print_binary(va_list);
 int print_string(va_list);
 int print_percent_symbol(va_list);
+int print_octal(va_list list);
+int print_hex(va_list list);
+int print_heX(va_list list);
+int print_reversed(va_list arg);
+int rot13(va_list);
+int unsigned_integer(va_list);
 
 #endif /* MAIN_H */
