@@ -18,7 +18,7 @@ typedef struct print
 } print_t;
 
 /*Functions Declarations*/
-int _putchar(char);
+int _putchar(char c);
 int _printf(const char *format, ...);
 int printer(const char *format, print_t func_list[], va_list args);
 /* Task 0 main functions */

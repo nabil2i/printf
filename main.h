@@ -9,12 +9,11 @@
 /**
  * struct format - Struct for format
  * @specifiers: Struct format
- * @f: The function associated
+ * @f: pointer to the print function associated to the operator
  */
-
 typedef struct specifiers
 {
-	char specifiers;
+	char *specifiers;
 	int (*f)(va_list);
 } specifiers_t;
 
