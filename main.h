@@ -11,6 +11,7 @@
  * @specifiers: Struct format
  * @f: pointer to the print function associated to the operator
  */
+
 typedef struct specifiers
 {
 	char specifiers;
