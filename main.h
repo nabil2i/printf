@@ -11,7 +11,6 @@
  * @specifiers: Struct format
  * @f: pointer to the print function associated to the operator
  */
-
 typedef struct specifiers
 {
 	char specifiers;
@@ -30,4 +29,4 @@ int print_digit(va_list args);
 int print_mod(va_list args);
 int print_rev_string(va_list args);
 
-#endif
+#endif /* MAIN_H */
